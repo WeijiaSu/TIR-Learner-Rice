@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd Module1/
-
+# change the name of genome $genome--> YourGenomeName
 for i in A C H M T;do blastn -query "Rice_DT"$i"_withTIR.fa" -subject ../$genome -outfmt '7 qseqid sseqid length pident gaps mismatch qstart qend sstart send evalue qcovhsp' -out "Blast_DT"$i; done
 
 python3 Fullcov.py
