@@ -24,7 +24,7 @@ There are three modules in TIR-Learner.
 (2)Pandas
 (3)Sklearn
 
-3 Run TIR-Learner
+3. Run TIR-Learner
 
 3.1 Download and unzip TIR-Learner package.
 
