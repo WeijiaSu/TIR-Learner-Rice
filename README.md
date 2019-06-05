@@ -10,6 +10,7 @@ The second module utilizes both sequence homology and structural features to ide
 
 The third module (Structure-based de novo) processes the candidate sequences that were excluded from the second module because they did not have 80% similarity or coverage of a reference TE.  These sequences were analyzed by Machine Learning methods to identify sequence motifs conserved in each of the five major TIR superfamilies.  The Machine Learning component then classifies each candidate sequence into one of the five TIR superfamilies, or a nonTIR class.
 
+![Picture1](https://user-images.githubusercontent.com/32049018/58972658-aa59fb00-8783-11e9-978b-24b8d68a24bb.png)
 
 
 
