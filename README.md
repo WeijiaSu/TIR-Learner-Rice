@@ -15,3 +15,21 @@ The third module (Structure-based de novo) processes the candidate sequences tha
 
 
 ## How to use
+1. Install GRF following the instruction: (https://github.com/weijiaweijia/GenericRepeatFinder)
+2. Make sure the following python3 packages are installed:
+(1)BioPython
+(2)Pandas
+(3)Sklearn
+3 Run TIR-Learner
+3.1 Download and unzip TIR-Learner package.
+3.2 Copy preProcess.sh to your current folder and change the parameters accordingly, and run preProcess.sh
+This step will pre-screen the genome sequence file to check if there are special characters in the sequence headers.  This script will also configure the program, such as creat seperate folder for each module and copy the masker script that is needed for each module.
+3.3 Go to folder Module1 in your target folder.  Run Module1.sh (change parameters accordingly)
+3.4 Go to folder Module2 in your target folder.  Run Module2.sh (change parameters accordingly)
+3.5 Go to folder Module3 in your target folder.  Run Module3.sh (change parameters accordingly)
+Note: Module1 is independent to Module2 and Module3, therefore, you can run Module1 and Module2 in the same time.  However, Module3 should begin after Module2 is finished.
+3.6 Go to the target folder and run postProcessing.sh 
+This script will combine and filter the results from the three modules, this will also remove and clean the temperary files that are generated during each module.
+
+## Results
+TIR-learner generates two output files.  One annotation file in gff3 format and one fasta file.  These two files are stored in the folder TIR-Learner-results.
