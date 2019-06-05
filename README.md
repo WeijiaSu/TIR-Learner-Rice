@@ -27,6 +27,7 @@ There are three modules in TIR-Learner.
 3. Run TIR-Learner
 
 3.1 Download and unzip TIR-Learner package.
+Note: unzip all files in the folder including RefLib.zip in the current folder and Rice_model.sav.zip in the Module3 folder.
 
 3.2 Copy preProcess.sh to your current folder and change the parameters accordingly, and run preProcess.sh
 
