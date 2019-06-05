@@ -47,6 +47,9 @@ TIR-learner generates two output files.  One annotation file in gff3 format and 
 ## Example
 
 Module1.sh
+
+```shell
+
 #!/bin/bash
 
 # Copy/paste this job script into a text file and submit with the command:
@@ -102,17 +105,5 @@ python3 $path/Module1/WriteToGff_M1.py -name $genomeName -p $path -t $t -d $dir
 echo "Module1, Step 6: Check Low Complexity"
 
 python3 $path/Module1/Lowcompl.py -g $genomeFile -name $genomeName -p $path -t $t -d $dir
-~                                                                                                                                                                                             
-~                                                                                                                                                                                             
-~                                                                                                                                                                                             
-~                                                                                                                                                                                             
-~                                                             
-
-
-
-
-
-
-
 
 
