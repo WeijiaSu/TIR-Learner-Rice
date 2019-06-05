@@ -105,7 +105,7 @@ python3 $path/Module1/WriteToGff_M1.py -name $genomeName -p $path -t $t -d $dir
 echo "Module1, Step 6: Check Low Complexity"
 
 python3 $path/Module1/Lowcompl.py -g $genomeFile -name $genomeName -p $path -t $t -d $dir
-
+```
 Module2.sh
 
 ```shell
@@ -172,7 +172,7 @@ python3 $path/Module2/WriteToGff_M2.py -name $genomeName -p $path -t $t -d $dir
 
 echo "Module 2 , Step 7: Remove Low complexity"
 python3 $path/Module2/Lowcomp_M2.py -g $genomeFile -name $genomeName -p $path -t $t -d $dir
-
+```
 Module3.sh
 ```shell
 #!/bin/bash
@@ -227,5 +227,5 @@ python3 $path/Module3/WriteToGff_M3.py -name $genomeName -p $path -t $t -d $dir
 echo "Module 3, Step 5: Remove Low complexity"
 python3 $path/Module3/Lowcomp_M3.py -g $genomeFile -name $genomeName -p $path -t $t -d $dir
 
-
+```
 
